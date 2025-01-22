@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 视频解析下载工具
 
-## Getting Started
+一个强大的在线视频解析和下载工具，支持多个主流视频平台。
 
-First, run the development server:
+## 🎯 功能特点
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### 支持平台
+
+- 🔥 微博视频
+- 🎵 抖音短视频
+- ▶️ YouTube视频
+- 🐦 Twitter视频
+- 📺 Bilibili视频
+
+### 核心功能
+
+- 🚀 一键解析：只需粘贴视频链接，即可快速解析
+- 💾 视频下载：支持高清视频下载
+- 🌐 多语言支持：中文/英文界面切换
+- 📱 移动端适配：支持手机浏览器访问
+
+## 🛠 技术架构
+
+### 前端技术栈
+
+- **框架**: Next.js 13 (App Router)
+- **UI框架**: React + TailwindCSS
+- **状态管理**: React Hooks
+- **类型系统**: TypeScript
+
+### 项目结构
+
+```
+src/
+├── app/              # 应用主目录
+│   ├── api/         # API路由
+│   ├── components/  # React组件
+│   └── page.tsx     # 主页面
+├── styles/          # 样式文件
+└── types/           # TypeScript类型定义
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 核心功能实现
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **视频解析模块**: 通过API接口解析不同平台的视频链接
+- **下载处理**: 支持直接下载或流式传输
+- **响应式设计**: 采用TailwindCSS实现全响应式布局
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📅 项目进度
 
-## Learn More
+### 已完成功能
 
-To learn more about Next.js, take a look at the following resources:
+- ✅ 基础UI框架搭建
+- ✅ 视频链接解析功能
+- ✅ 多语言切换支持
+- ✅ 响应式布局适配
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 开发中功能
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🚧 更多平台支持
+- 🚧 批量下载功能
+- 🚧 视频格式转换
+- 🚧 会员系统
 
-## Deploy on Vercel
+### 计划功能
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 📋 下载历史记录
+- 📋 视频收藏功能
+- 📋 用户偏好设置
+- 📋 高级解析选项
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 参与贡献
+
+欢迎提交Issue和Pull Request！
+
+## 📝 开源协议
+
+本项目采用 MIT 协议开源。
